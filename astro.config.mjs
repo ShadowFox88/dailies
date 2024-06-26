@@ -3,7 +3,7 @@ import { defineConfig } from "astro/config";
 
 // https://astro.build/config
 export default defineConfig({
-    base: "astro-app-boilerplate",
+    base: "dailies",
     integrations: [tailwind()],
     server: {
         port: 3000,
